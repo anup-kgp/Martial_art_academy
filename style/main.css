@@ -36,12 +36,25 @@ header{
 }
 #video_content{
     width: 1000px;
-    height: 500px;
+    height: 560px;
     margin: auto;
     margin-top: 20px;
     border: 0px solid red;
 }
 video{
-    width:1000px;
+    width:100%;
     
+}
+#two_div_wraper{
+   
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+.two_div_content1{
+    width: 60%;
+    height: 600px;
+    border: 1px solid red;
 }
