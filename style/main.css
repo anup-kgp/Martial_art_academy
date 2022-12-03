@@ -8,17 +8,24 @@ body{
     height: 900px;
     background-image: radial-gradient(circle, #cbd8ec, #999fae, #686a74, #3a3a3f, #0f0f0f);
 }
+
+                               
+                        /* Navbar css code start from  here */
 #navbar{
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
     border-bottom:1px  solid rgba(0, 0, 0, 0.158);    
     position: sticky;
+    
 }
 .nav_link {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+}
+.nav_link:hover{
+ color: red;
 }
 header{
     /* width:100%; */
@@ -34,6 +41,9 @@ header{
 .logo{
     width: 90px;
 }
+
+                            /* landing page (index)  css code start from here*/
+
 #video_content{
     width: 1000px;
     height: 560px;
@@ -57,4 +67,34 @@ video{
     width: 60%;
     height: 600px;
     border: 1px solid red;
+}
+
+
+
+
+                                    /*Login page css code start from here */
+
+.two_button{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-around; */
+  
+   /* height: 400px; */
+    margin: auto;
+    margin-top: 70px;
+
+    border: 1px solid red;
+}
+.two_button>button{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.two_button>button:hover{
+    background-color: red;
 }
