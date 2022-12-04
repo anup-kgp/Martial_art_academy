@@ -30,16 +30,24 @@ body{
 header{
     /* width:100%; */
     display: flex;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items: center;
     text-align: center;
     background-color: #f3f3f3;
-    border: 0px solid red;
+    border: 1px solid red;
     font-family: serif;
 }
 
 .logo{
-    width: 90px;
+    width: 80px;
+}
+
+header>div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 80px;
+    border: 1px solid red;
 }
 
                             /* landing page (index)  css code start from here*/
@@ -97,4 +105,18 @@ video{
 }
 .two_button>button:hover{
     background-color: red;
+}
+
+
+@media screen and (max-width: 430px){
+    header{
+        /* width:100%; */
+        /* display: flex; */
+        justify-content:space-evenly;
+        align-items: center;
+        text-align: center;
+        background-color: #f3f3f3;
+        border: 1px solid red;
+        font-family: serif;
+    }
 }
